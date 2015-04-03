@@ -1,3 +1,4 @@
+/* Desde aca es seccion de banner */
 #banner
 {
 	margin: 0 auto;
@@ -7,7 +8,7 @@
   	color:#FFF;
 	text-align:center;
 	font-size:14px;
-  	height: 520px;
+  	height: 528px;
 	background: url(../imagenes/banner.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -42,9 +43,10 @@
 	text-align:center;
 	vertical-align:central middle;
 	display:inline-block;
-	padding-top:10px;
+	padding-top:5px;
 	margin:auto;
 	margin-bottom:10px;
+	padding-top:10px;
 }
 #banner .texto {
 	text-align:center;
@@ -52,6 +54,8 @@
 	margin:auto;
 	width:70%;
 	padding-bottom:30px;
+	font-size:1.2em;
+	text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
 #banner .izquierdo {
 	height:100px; 
@@ -73,6 +77,7 @@
     line-height: 0;
 	bottom:0;
 }
+/* Desde aca es seccion de servicios */
 #servicios {
 	margin: 0 auto;
 	padding: 0;	
@@ -81,20 +86,13 @@
 	text-align:center;
 	font-size:14px;
 }
-#servicios .test {
-	border:solid 1px #336633;
-	width:150px;
-	height:300px;
-
-
-}
-#servicios h2 {
+#servicios h3 {
 	color:#ff284a;
 	font-size:2em;
 	text-align:center;
 	margin-top:50px;
 }
-#servicios h3 {
+#servicios h2 {
 	color:#2D2D2D;
 	font-size:1.2em;
 	text-align:center;
@@ -115,11 +113,7 @@
 	height:25%;
 	padding-bottom:60px;
 }
-
-
-
-
-
+/* Desde aca es seccion de bienvenidos */
 #bienvenido {
 	background:#2F3135;
 	margin: 0 auto;
@@ -143,7 +137,6 @@
 #bienvenido h1 {
 	margin-top:70px;
 	padding-bottom:20px;
-	
 	font-size:2em;
 	color:#FFF;
 	width:70%;
@@ -155,4 +148,69 @@
 	font-size:1em;
 	width:70%;
 	margin:auto;	
+}
+/* Desde aca es seccion de nosotros */
+#nosotros {
+	margin: 0 auto;
+	padding: 0;	
+	background:#F3F3F3;
+	width:100%;
+	text-align:center;
+	font-size:14px;
+}
+#nosotros .espacionosotros {
+	margin: 0 auto;
+	padding: 0;	
+}
+#nosotros .espacionosotros .imagennosotros {
+	background: url(../imagenes/nosotros.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	margin: 0 auto;
+	padding: 0;	
+	height:500px;
+}
+#nosotros .espacionosotros .imagennosotros h3 {
+	font-size:2em;
+	margin-left:20px;
+	margin-right:20px;
+	color:#FFF;
+	padding-top:150px;
+	text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+}
+#nosotros .espacionosotros .imagennosotros p {
+	font-size:1.2em;
+	margin-left:20px;
+	margin-right:20px;
+	color:#FFF;
+	text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+}
+#nosotros .espacionosotros .textonosotros {
+	text-align:left;
+	padding-top:50px;
+	padding-left:50px;
+}
+
+#nosotros .espacionosotros .textonosotros h3 {
+	display:inline-block;
+	margin: 0 auto;
+	padding: 0;
+	padding-top:10px;
+	color: #768088;
+}
+#nosotros .espacionosotros .textonosotros p {
+	padding-top:2em;
+	font-size:1em;
+	
+}
+#nosotros .espacionosotros .textonosotros figure {
+	display:inline-block;
+	margin: 0 auto;
+	padding: 0;	
+	padding-top:10px;
+	padding-right:40px;
+	height:10px;
+	width:10px;
 }
