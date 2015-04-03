@@ -1,0 +1,152 @@
+#banner
+{
+	margin: 0 auto;
+	padding: 0;	
+	background: #f16251;
+  	height:550px;
+  	color:#FFF;
+	text-align:center;
+	font-size:14px;
+  	height: 520px;
+	background: url(../imagenes/banner.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#banner .textslogan {
+	color:#FFF;
+	text-align:center;
+	margin-top:0px;
+	font-size:3em;
+}
+#banner .textsloganweb {
+	color:#FFF;
+	text-align:center;
+	margin-top:-50px;
+	font-size:9em;
+}
+#banner .distanciapositiva {
+	padding-top:100px;
+}
+#banner .distancianegativa {
+	margin-top:-50px;
+}
+#banner .boton {
+	background-color:#ff284a;
+	color:#FFF;
+	text-decoration:none;
+	height:40px;
+	width:150px;
+	font-size:1,5em;
+	text-align:center;
+	vertical-align:central middle;
+	display:inline-block;
+	padding-top:10px;
+	margin:auto;
+	margin-bottom:10px;
+}
+#banner .texto {
+	text-align:center;
+	display:inline-block;
+	margin:auto;
+	width:70%;
+	padding-bottom:30px;
+}
+#banner .izquierdo {
+	height:100px; 
+	width:50%; 
+	display:inline-block;	
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #fff;
+    font-size: 0;
+    line-height: 0;
+	bottom:0;
+}
+#banner .derecho {
+	height:100px; 
+	width:50%; 
+	display:inline-block;	
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid #fff;
+    font-size: 0;
+    line-height: 0;
+	bottom:0;
+}
+#servicios {
+	margin: 0 auto;
+	padding: 0;	
+	background:#FFF;
+	width:100%;
+	text-align:center;
+	font-size:14px;
+}
+#servicios h2 {
+	color:#ff284a;
+	font-size:2em;
+	text-align:center;
+	margin-top:50px;
+}
+#servicios h3 {
+	color:#2D2D2D;
+	font-size:1.2em;
+	text-align:center;
+}
+#servicios .texto {
+	text-align:center;
+	display:inline-block;
+	margin:auto;
+	padding-bottom:30px;
+	font-size:1em;
+}
+#servicios .detalleservicio {
+	height:350px;	
+}
+#bienvenido {
+	background:#2F3135;
+	margin: 0 auto;
+	padding: 0;	
+	height:300px;
+	width:100%;
+	text-align:center;
+	font-size:1em;
+}
+#bienvenido .triangulo {
+	background:#2F3135; 
+	height:100px; 
+	width:100px; 
+	display:inline-block;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #fff;
+    font-size: 0;
+    line-height: 0;
+}
+#bienvenido h1 {
+	margin-top:70px;
+	padding-bottom:20px;
+	
+	font-size:2em;
+	color:#FFF;
+	width:70%;
+	margin:auto;	
+}
+#bienvenido p {
+	margin-top:70px;
+	color:#FFF;
+	font-size:1em;
+	width:70%;
+	margin:auto;	
+}
+#nosotros {
+	background:#FFF;
+	margin: 0 auto;
+	padding: 0;	
+	height:500px;
+	width:100%;
+	text-align:center;
+	font-size:1em;
+}
+#nosotros .imagenosotros {
+	background:url(../imagenes/nosotros.png);
+}
