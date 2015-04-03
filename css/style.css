@@ -81,6 +81,13 @@
 	text-align:center;
 	font-size:14px;
 }
+#servicios .test {
+	border:solid 1px #336633;
+	width:150px;
+	height:300px;
+
+
+}
 #servicios h2 {
 	color:#ff284a;
 	font-size:2em;
@@ -99,9 +106,20 @@
 	padding-bottom:30px;
 	font-size:1em;
 }
-#servicios .detalleservicio {
-	height:350px;	
+#servicios .cuadroservicios{
+	width:100%;
+	margin:auto;
+	padding-bottom:20px;
 }
+#servicios .detalleservicio {
+	height:25%;
+	padding-bottom:60px;
+}
+
+
+
+
+
 #bienvenido {
 	background:#2F3135;
 	margin: 0 auto;
@@ -137,16 +155,4 @@
 	font-size:1em;
 	width:70%;
 	margin:auto;	
-}
-#nosotros {
-	background:#FFF;
-	margin: 0 auto;
-	padding: 0;	
-	height:500px;
-	width:100%;
-	text-align:center;
-	font-size:1em;
-}
-#nosotros .imagenosotros {
-	background:url(../imagenes/nosotros.png);
 }
