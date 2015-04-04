@@ -138,8 +138,8 @@
     line-height: 0;
 }
 #bienvenido h1 {
-	margin-top:70px;
-	padding-bottom:20px;
+	margin-top:60px;
+	padding-bottom:1em;
 	font-size:2em;
 	color:#FFF;
 	width:70%;
@@ -149,7 +149,7 @@
 	margin-top:70px;
 	color:#FFF;
 	font-size:1em;
-	width:70%;
+	width:90%;
 	margin:auto;	
 }
 /* Desde aca es seccion de nosotros */
@@ -165,7 +165,7 @@
 	margin: 0 auto;
 	padding: 0;	
 }
-#nosotros .espacionosotros .imagennosotros {
+#nosotros .espacionosotros .imagennosotros { /* Esta imagen es la izquierda del nosotros */
 	background: url(../imagenes/nosotros.png) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -175,12 +175,13 @@
 	padding: 0;	
 	height:500px;
 }
+/* Este texto se ve solo en celulares */
 #nosotros .espacionosotros .imagennosotros h3 {
 	font-size:2em;
 	margin-left:20px;
 	margin-right:20px;
 	color:#FFF;
-	padding-top:150px;
+	padding-top:4em;
 	text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
 #nosotros .espacionosotros .imagennosotros p {
@@ -190,13 +191,13 @@
 	color:#FFF;
 	text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
+/* Desde aca es seccion de nosotros texto */
 #nosotros .espacionosotros .textonosotros {
 	text-align:left;
 	padding-top:50px;
 	padding-left:50px;
 	padding-right:30px;
 }
-
 #nosotros .espacionosotros .textonosotros h3 {
 	display:inline-block;
 	margin: 0 auto;
@@ -207,16 +208,13 @@
 #nosotros .espacionosotros .textonosotros p {
 	padding-top:2em;
 	font-size:1em;
-	
 }
 #nosotros .espacionosotros .textonosotros figure {
 	display:inline-block;
 	margin: 0 auto;
 	padding: 0;	
-	padding-top:10px;
+	padding-top:2em;
 	padding-right:40px;
-	height:10px;
-	width:10px;
 }
 /* Desde aca es seccion de redes sociales */
 #redes-sociales{
@@ -234,7 +232,7 @@
 	left: 0;
 	right: 0;
 	width: 100%;
-	padding-top:40px;
+	padding-top:30px;
 	padding-bottom:20px;
 	margin: auto;
 }
@@ -248,8 +246,22 @@
 #tecnologias{
 	margin: 0 auto;
 	padding: 0;
-	height:25em;
+	height:20em;
 	background:#FFF;
 	text-align:center;
 	position: relative;
+}
+#tecnologias h3{
+	color:#768088;
+	padding-top:30px;
+}
+#tecnologias p{
+	font-size:1em;
+	color:#768088;
+}
+#tecnologias .tecnologias{
+	margin: 0 auto;
+	padding:0;
+	width:80%;
+	padding-top:20px;
 }
