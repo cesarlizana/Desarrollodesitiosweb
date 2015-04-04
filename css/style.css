@@ -1,3 +1,6 @@
+*{
+	font-family: 'Open Sans', sans-serif;	
+}
 /* Desde aca es seccion de banner */
 #banner
 {
@@ -191,6 +194,7 @@
 	text-align:left;
 	padding-top:50px;
 	padding-left:50px;
+	padding-right:30px;
 }
 
 #nosotros .espacionosotros .textonosotros h3 {
@@ -213,4 +217,39 @@
 	padding-right:40px;
 	height:10px;
 	width:10px;
+}
+/* Desde aca es seccion de redes sociales */
+#redes-sociales{
+	margin: 0 auto;
+	padding: 0;
+	height:10em;
+	background:#E2E2E2;
+	text-align:center;
+	position: relative;
+}
+#redes-sociales .contenedorredes{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding-top:40px;
+	padding-bottom:20px;
+	margin: auto;
+}
+#redes-sociales .contenedorredes .botonsocial{
+	display:inline-block;
+	margin:auto;
+	padding-left:1em;
+	padding-right:1em;
+}
+/* Desde aca es seccion de tecnologias */
+#tecnologias{
+	margin: 0 auto;
+	padding: 0;
+	height:25em;
+	background:#FFF;
+	text-align:center;
+	position: relative;
 }
