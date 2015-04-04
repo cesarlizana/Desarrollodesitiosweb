@@ -269,12 +269,12 @@ footer {
 	margin:0 auto;
 	background:#2F3135;
 	padding: 0;
-	height:200px;
 	text-align:center;
 	color:#FFF;
 }
 footer p {
 	padding-top:20px;
+	padding-bottom:20px;
 }
 footer .infopie {
 	margin:0 auto;
