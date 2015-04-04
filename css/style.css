@@ -265,3 +265,40 @@
 	width:80%;
 	padding-top:20px;
 }
+footer {
+	margin:0 auto;
+	background:#2F3135;
+	padding: 0;
+	height:200px;
+	text-align:center;
+	color:#FFF;
+}
+footer p {
+	padding-top:20px;
+}
+footer .infopie {
+	margin:0 auto;
+	padding: 0;
+	color:#FFF;
+	width:90%;
+}
+footer .infopie .detallepie {
+	padding-top:10px;
+	text-align:left;
+}
+footer .infopie .detallepie p {
+	text-align:left;
+	font-size:1em;
+	padding-left:40px;
+	padding-top:20px;
+}
+footer .infopie .detallepie li {
+	list-style:none;
+}
+footer .infopie .detallepie a {
+	list-style:none;
+	color:#FFF;
+	padding-left:40px;
+}
+
+
