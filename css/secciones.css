@@ -172,6 +172,17 @@ html {
 	padding-top:2em;
 	font-family: 'Antic', sans-serif;
 }
+@media screen and (max-width: 800px) {
+	#nosotros  {
+		display:none;
+	}
+	#nosotros .imagen_nosotros {
+		display:none;
+	}
+	#nosotros .imagen_nosotros p {
+		display:none;
+	}
+}
 #nosotros article {
 	text-align:center;
 	color:#768080;
