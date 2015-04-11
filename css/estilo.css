@@ -1,0 +1,173 @@
+html {
+	font-size:14px;
+}
+/* desde aca informacion */
+#informacion {
+	background-color:#2F3135;
+	width: 100%;
+	padding: 0;
+	color:#FFF;
+	text-align:center;
+	margin:auto;
+}
+#informacion p {
+	padding-top:4em;
+	font-size:1.3em;
+	width:75%;
+	margin:auto;
+	padding-bottom:4em;
+	font-family: 'Antic', sans-serif;
+}
+/* desde aca redes sociales */
+#redessociales {
+	background-color:#EAEAEA;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin:auto;
+	display:inline-block;
+	padding-top:4em;
+	padding-bottom:4em;
+	text-align:center;
+}
+#redessociales .youtube {
+	background:url(../imagenes/redes_sociales/youtube1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .youtube:hover {
+	background:url(../imagenes/redes_sociales/youtube2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .blogspot {
+	background:url(../imagenes/redes_sociales/blogspot1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .blogspot:hover{
+	background:url(../imagenes/redes_sociales/blogspot2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .googlemas {
+	background:url(../imagenes/redes_sociales/googlemas1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .googlemas:hover{
+	background:url(../imagenes/redes_sociales/googlemas2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .linkedin {
+	background:url(../imagenes/redes_sociales/linkedin1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .linkedin:hover{
+	background:url(../imagenes/redes_sociales/linkedin2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .skype {
+	background:url(../imagenes/redes_sociales/skype1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .skype:hover{
+	background:url(../imagenes/redes_sociales/skype2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .facebook {
+	background:url(../imagenes/redes_sociales/facebook1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .facebook:hover{
+	background:url(../imagenes/redes_sociales/facebook2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .twitter {
+	background:url(../imagenes/redes_sociales/twitter1.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+#redessociales .twitter:hover{
+	background:url(../imagenes/redes_sociales/twitter2.jpg);
+	height:42px;
+	width:42px;
+	margin:10px;
+	display:inline-block;
+}
+/* desde aca tecnologias */
+#tecnologias {
+	background-color:#E2E2E2;
+	width: 100%;
+	padding: 0;
+	display: block;
+	color:#768081;
+	text-align:center;
+	margin:0;
+}
+#tecnologias h2 {
+	padding-top:3em;
+	margin:0;
+	font-family: 'Oswald', sans-serif;
+}
+#tecnologias p {
+	padding-top:1em;
+	margin:0;
+	font-family: 'Antic', sans-serif;
+}
+#tecnologias article {
+	padding-top:1em;
+	margin:0;
+	width:75%;
+	margin:auto;
+	padding-bottom:5em;
+}
+/* desde aca footer*/
+footer {
+	background-color:#2F3135;
+	height:85px;
+	width:100%;
+	margin:0;
+	padding:0;
+	display: block;
+	text-align:center;
+	color:#FFF;
+}
+footer p {
+	margin:auto;
+	padding-top:2em;
+	font-family: 'Antic', sans-serif;
+}
