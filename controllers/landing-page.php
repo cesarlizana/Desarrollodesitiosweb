@@ -1,0 +1,3 @@
+<?php
+
+    view('landing-page');

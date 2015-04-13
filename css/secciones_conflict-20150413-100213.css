@@ -90,6 +90,9 @@ html {
 	margin-bottom:4.5em;
 	font-family: 'Oswald', sans-serif;
 }
+#servicios .menuservicios figcaption {
+	padding-bottom:1em;	
+}
 #servicios .menuservicios figcaption .separador {
 	background:#2F3135;
 	height:16px;
@@ -235,12 +238,9 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-#banner_contacto figure {
-	padding-top:15em;	
-}
 #banner_contacto h1 {
 	font-family: 'Oswald', sans-serif;
-	padding-top:1em;
+	padding-top:6em;
 }
 #banner_contacto p {
 	width:70%;
@@ -366,149 +366,221 @@ html {
 	left:0;
 	right:0;
 }
-#mapa .bloquedatos {
-	height:200px;
-	width:400px;
-	background:#FFF;
+
+
+
+
+/* CLIENTES */
+/* DESDE ACA INDEX */
+#banner_informacion{
+	margin: 0;
+	padding: 0;	
+	background: #f16251;
+  	height:700px;
+  	color:#FFF;
+	text-align:center;
+	position:relative;
+	font-size:14px;
+	background: url(../imagenes/banner_informacion.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#banner_informacion .distanciapositiva {
+	padding-top:200px;
+}
+
+#banner_informacion .tituloclientes {
+	font-size:3em;
+	padding-top:7em;
+}
+#banner_informacion .contenedor_slogar {
+	width:80%;
+	margin:auto;
+}
+#banner_informacion .contenedor_slogar h1 {
+	display:inline;
+	margin:auto 0;
+	font-size:1.5em;
+	font-family: 'Antic', sans-serif;
+}
+#banner_informacion .contenedor_slogar p {
+	display:inline;
+	margin:auto 0;
+	font-size:1.5em;
+	font-family: 'Antic', sans-serif;
+}
+#banner_informacion .circulo {
+	height:50px;
+	width:50px;
+	background:#1B80A6;
+	border-radius:50%;
 	position:absolute;
-	bottom:-100px;
+	bottom:-25px;
 	margin:auto;
 	text-align:center;
+	color:#FFF;
+	padding-top:15px;
 	margin-left: auto;
 	margin-right: auto;
 	left:0;
 	right:0;
 }
-#mapa .bloquedatos .contactocuadrotexto {
-	color:#B83951;
-	font-size:1.4em;
-	padding-top:1.6em;
-	font-family: 'Antic', sans-serif;
-}
-#mapa .bloquedatos img {
-	padding-bottom:1em;
-	height:25px;
-	width:25px;
-}
-#mapa .bloquedatos p {
-	color:#7A7A7A;
-	font-size:1em;
-	padding-top:0;
-	font-family: 'Antic', sans-serif;
-}
-#mapa .bloquedatos p b {
-	color:#B83951;
-	font-weight:normal;
-	font-size:1em;
-	padding-top:0;
-	font-family: 'Antic', sans-serif;
-}
-#redessociales_contacto {
-	background-color:#EAEAEA;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+#cuerpoinformacion {
+	padding-top:4em;
+	padding-bottom:2em;
+	width:90%;
 	margin:auto;
-	display:inline-block;
-	padding-top:10em;
-	padding-bottom:4em;
+}
+#cuerpoinformacion .menuayudacliente {
+	height:300px;
+	margin:auto;
 	text-align:center;
 }
-#redessociales_contacto .youtube {
-	background:url(../imagenes/redes_sociales/youtube1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+
+
+
+#cuerpoinformacion .menuayudacliente h3 {
+	color:#5D5D5D;
+	padding-top:2em;
+	font-family: 'Oswald', sans-serif;
+	width:80%;
+	margin:auto;
 }
-#redessociales_contacto .youtube:hover {
-	background:url(../imagenes/redes_sociales/youtube2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#cuerpoinformacion .menuayudacliente p {
+	color:#5D5D5D;
+	padding-top:1em;
+	font-family: 'Antic', sans-serif;
+	width:80%;
+	margin:auto;
+	padding-bottom:40px;
 }
-#redessociales_contacto .blogspot {
-	background:url(../imagenes/redes_sociales/blogspot1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#cuerpoinformacion .circulo_rojo_flecha {
+	height:40px;
+	width:40px;
+	background:#B83951;
+	border-radius:50%;
+	margin:auto;
+	
 }
-#redessociales_contacto .blogspot:hover{
-	background:url(../imagenes/redes_sociales/blogspot2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#cuerpoinformacion .circulo_rojo_flecha img {
+	padding-top:15px;
 }
-#redessociales_contacto .googlemas {
-	background:url(../imagenes/redes_sociales/googlemas1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+
+
+/* desarrollo web */
+
+
+/* DESDE ACA INDEX */
+#banner_desarrolloweb {
+	margin: 0;
+	padding: 0;	
+	background: #f16251;
+  	height:700px;
+  	color:#FFF;
+	text-align:center;
+	position:relative;
+	font-size:14px;
+	background: url(../imagenes/banner_index.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-#redessociales_contacto .googlemas:hover{
-	background:url(../imagenes/redes_sociales/googlemas2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#banner_desarrolloweb .textslogan {
+	color:#FFF;
+	text-align:center;
+	margin-top:0px;
+	font-size:3em;
 }
-#redessociales_contacto .linkedin {
-	background:url(../imagenes/redes_sociales/linkedin1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#banner_desarrolloweb .textsloganweb {
+	color:#FFF;
+	text-align:center;
+	margin-top:-50px;
+	font-size:9em;
 }
-#redessociales_contacto .linkedin:hover{
-	background:url(../imagenes/redes_sociales/linkedin2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#banner_desarrolloweb .distanciapositiva {
+	padding-top:250px;
 }
-#redessociales_contacto .skype {
-	background:url(../imagenes/redes_sociales/skype1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
+#banner_desarrolloweb .contenedor_slogar {
 	display:inline-block;
+	margin:auto;
+	text-align:center;
+	width:80%;	
+	padding-top:1em;
 }
-#redessociales_contacto .skype:hover{
-	background:url(../imagenes/redes_sociales/skype2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#banner_desarrolloweb .contenedor_slogar h1 {
+	display:inline;
+	margin:auto 0;
+	font-size:1.5em;
+	font-family: 'Antic', sans-serif;
 }
-#redessociales_contacto .facebook {
-	background:url(../imagenes/redes_sociales/facebook1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#banner_desarrolloweb .contenedor_slogar p {
+	display:inline;
+	margin:auto 0;
+	font-size:1.5em;
+	font-family: 'Antic', sans-serif;
 }
-#redessociales_contacto .facebook:hover{
-	background:url(../imagenes/redes_sociales/facebook2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#banner_desarrolloweb .circulo {
+	height:50px;
+	width:50px;
+	background:#1B80A6;
+	border-radius:50%;
+	position:absolute;
+	bottom:-25px;
+	margin:auto;
+	text-align:center;
+	color:#FFF;
+	padding-top:15px;
+	margin-left: auto;
+	margin-right: auto;
+	left:0;
+	right:0;
 }
-#redessociales_contacto .twitter {
-	background:url(../imagenes/redes_sociales/twitter1.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+
+
+/* DESARROLLO WEB */
+
+#desarrolloweb {
+	width:100%;
+	height:600px;
+	margin:auto;
+	background:#FFF;
+	text-align:center;
+	padding:0;
 }
-#redessociales_contacto .twitter:hover{
-	background:url(../imagenes/redes_sociales/twitter2.jpg);
-	height:42px;
-	width:42px;
-	margin:10px;
-	display:inline-block;
+#desarrolloweb .contenidoplan{
+	margin:auto;
+	padding:0;
+	padding-top:3em;
+}
+#desarrolloweb .contenidoplan article {
+	margin:auto;
+	padding:0;
+}
+#desarrolloweb .contenidoplan article .separador {
+	background:#2F3135;
+	height:16px;
+	text-align:center;
+}
+
+#desarrolloweb .contenidoplan article .separador .circuloredgrande {
+	background-color:#B83951;
+	height:90px;
+	width:90px;
+	position:relative;
+	bottom:24px;
+	border-radius:50%;
+	margin-left: auto;
+	margin-right: 30px;
+	left:0;
+	right:0;
+}
+#desarrolloweb .contenidoplan article .separador .circuloredgrande p {
+	padding-top:2em;
+	color:#FFF;
+	font-family: 'Antic', sans-serif;
+	font-size:1.2em;
 }

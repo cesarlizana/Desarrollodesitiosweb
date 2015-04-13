@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Desarrollo de sitios web - Emagenic</title>
-    <meta name="description" content="Desarrollo de sitios web de calidad, auto administrable, en html5 y css3 para el exito de tu negocio en la web">
+    <title>Contáctenos via web y responderemos mas pronto de los que imagina</title>
+    <meta name="description" content="Necesita desarrollar un sitio web, una aplicación web o el diseño gráfico para su empresa, contáctenos via web o por nuestras redes sociales. ">
+    <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
-    <link href="css/estilo.css" rel="stylesheet">
     <link href="css/secciones.css" rel="stylesheet">
 </head>
 <body>
@@ -28,7 +28,7 @@
         <li><a href="inicio">INICIO</a></li>
         <li><a href="inicio#servicios">SERVICIOS</a></li>
         <li><a href="novedades">NOVEDADES</a></li>
-        <li><a href="clientes">CLIENTES</a></li>
+        <li><a href="informacion">INFORMACIÓN</a></li>
         <li class="active"><a href="#">CONTACTO</a></li>
       </ul>
     </div>
@@ -37,7 +37,6 @@
 <!-- Hasta aca  el menu -->
 <!-- Desde aca inicia el banner -->
 <section id="banner_contacto">  
-  <figure><img src="imagenes/icono-contacto.png" height="100" width="100"></figure>
   <h1>CONTACTENOS</h1>
   <p>Contactenos y en breves instantes responderemos su requerimienro, tambien puede buscarnos en redes sociales o via telefónica</p>
     <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
@@ -45,7 +44,7 @@
 <!-- Hasta aca llega el banner -->
 <!-- Desde aca inicia el cuadro informacion -->
 <section id="informacion">
-  <p>Al comenzar con grandes relaciones con nuestros clientes, creamos productos y servicios que transforman sus Empresas.</p>
+  <p>Mantengamos contacto no solo durante su proceso de desarrollo, es vital para nosotros ayudarlo a mantener y lograr el éxito en la web, ya que su éxito es el nuestro</p>
 </section>
 <!-- Hasta aca llega el cuadro informacion -->
 <!-- Desde aca inicia el cuadro contacto -->
@@ -92,18 +91,12 @@
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m8!1m3!1d3301.4918192285363!2d-70.74706899076843!3d-34.15934122503021!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d-34.16121!2d-70.743389!5e0!3m2!1ses!2scl!4v1428497928547" width="100%" height="450" frameborder="0" style="border:0"></iframe>
     
     <div class="bloque" onClick="style.pointerEvents='none'" ></div>
-    <article class="bloquedatos">
-    	<p class="contactocuadrotexto">NUESTRA UBICACIÓN</p>
-        <img src="imagenes/flecha_gris.png" height="15">
-        <p><b class="destacado">Teléfonos: </b> +56 72 2532645</p>
-        <p><b class="destacado">Mail:</b> ventas@desarrollodesitiosweb.cl</p>
-		<p><b class="destacado">Dirección:</b> Italia 746 Rancagua Norte - Chile</p>
-    </article>
+    
 </section>
 <!-- Hasta aca llega el cuadro mapa -->
 
 <!-- Desde aca inicia el cuadro de redes sociales -->
-<section id="redessociales_contacto">
+<section id="redessociales">
   	<a href="https://www.youtube.com/user/emagenicltda" target="new"><div class="youtube"></div></a>
 	<a href="http://emagenic.blogspot.com/" target="new"><div class="blogspot"></div></a>
 	<a href="https://plus.google.com/+SitiosEmagenic/posts" target="new"><div class="googlemas"></div></a>
@@ -129,7 +122,8 @@
 </section>
 <!-- Hasta aca llega el cuadro de tecnologias -->
 <footer>
-	<p>© 2015 Todos los derechos reservados a Ingenieria y Desarrollo Emagenic Ltda</p>
+	<p class="sepfooter">© 2015 Todos los derechos reservados a Ingenieria y Desarrollo Emagenic Ltda</p>
+    <p>Teléfono: +56 72 2 532 2645 - mail: ventas@desarrollodesitiosweb.cl</p>
 </footer>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
