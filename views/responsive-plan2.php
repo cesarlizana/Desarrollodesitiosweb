@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sitio web responsivo plan 1</title>
-    <meta name="description" content="Desarrollo web responsivo plan 1, el producto mas demandado por nuestros clientes, hasta 4 secciones de contenido administrable e ilimitadas posibilidades">
+    <title>Sitio web responsivo plan 2</title>
+    <meta name="description" content="El sitio web responsive plan 2 es un potente instrumento de marketing, amigable con los móviles y sobretodo de contenido administrable y seguro">
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
-    <link href="css/secciones.css" rel="stylesheet">
+    <link href="http://www.desarrollodesitiosweb.cl/css/bootstrap.min.css" rel="stylesheet" media="screen">  
+    <link href="http://www.desarrollodesitiosweb.cl/css/secciones.css" rel="stylesheet" media="screen">
 </head>
 <body>
 <!-- Desde aca inicia el menu -->
@@ -24,29 +24,30 @@
     </div>    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="desarrollo-web">VOLVER</a></li>
-        <li class="active"><a href="desarrollo-web">DESARROLLO WEB</a></li>
+        <li><a href="../">INICIO</a></li>
+        <li class="active"><a href="../desarrollo-web">DESARROLLO WEB</a></li>
         <li><a href="newsletter">NEWS LETTER</a></li>
         <li><a href="landing-page">LANDING PAGE</a></li>
-        <li><a href="contacto">CONTACTO</a></li>
+        <li><a href="../contacto">CONTACTO</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- Hasta aca  el menu -->
 <!-- Desde aca inicia el banner -->
-<section class="row" id="banner_plan1responsive">
+<section class="row" id="banner_plan2responsive">
   <div class="overlay">
-  	<div class="textslogan distanciapositiva col-xs-12">
-      DESARROLLOS DE SITIOS WEB PLAN 1 RESPONSIVE
+	  <div class="textslogan distanciapositiva col-xs-12">
+      DESARROLLOS DE SITIOS WEB PLAN 2 RESPONSIVE
     </div>
     <div class="col-xs-12">
  		  <div class="contenedor_slogar">
-	     <h1>Diseño de sitio web compatible con móviles</h1>
-        <p>, hasta 4 secciones de contenido administrable, hosting gratis por un año y correo corporativo</p></div>
+	    	<h1>Diseño de sitio web a medida</h1>
+        <p>, potente, administrable y completamente amistoso con google, listo para posicionar</p>
+    	</div>
     </div>
-  </div>  
-    <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
+  </div>
+  <div class="circulo"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="15"></div>
 </section>
 <!-- Hasta aca llega el banner -->
 
@@ -56,28 +57,26 @@
 </section>
 <!-- Hasta aca llega el cuadro informacion -->
 <section id="detalleplanweb">
-  <h2>El plan 1 responsive es el actual plan mas demandado por los emprendedores</h2>
+  <h2>Un sitio de muchas secciones y amigable con móviles</h2>
   <p>
-  Desde abril del 2015 uno de los requerimientos para posicionarse en google es que el sitio sea amigable con los móviles y este plan es altamente compatible con ellos.
-Todos nuestros planes responsivos son desarrollados con bootstrap, un framework desarrollado por twitter que permite crear sitios web compatibles y auto ajustables a móviles. A estos les implementamos una plataforma de administración que permite administrar el contenido, permitiendo incorporar novedad cada día para sus usuarios.<br>
-Además como todos los planes este incluye web hosting gratis por 1 año para sus correos electrónicos y sitio web.
+    Uno de los factores importantes para el posicionamiento es la cantidad de secciones, aun que mas aun la calidad del contenido de estas, nosotros ponemos las secciones y desarrollamos el sitio amigable con los móviles, usted crea el contenido de su empresa y lo ayudamos con los primeros pasos del SEO<br>
+    Como todos los planes este incluye hosting gratis por un año, pero en plan 2 agregamos su dominio .cl o .com gratis también, mas la configuración de sus correos en el servidor y un completo manual audio visual de cómo hacer su configuración en Outlook o gmail.
   </p>
 
   <div class="col-xs 12 btn-planes">
-    <a href="comparar-planes">comparar Planes <img src="imagenes/flecha.png"></a>
+    <a href="comparar-planes">comparar Planes <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
   </div>
 
-  <p><b>Clientes frecuentes del plan:</b> Micro empresas - Organizaciones deportivas - Pymes de Servicios Pymes de comercialización - Bloggers
-  </p>
+  <p><b>Clientes frecuentes del plan:</b> Micro empresas - Organizaciones deportivas - Pymes de Servicios Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
 
   <h3>VALOR ÚNICO</h3>
   <div class="row carro">
-	 <div class="valor col-xs-6">    
-    	<img src="imagenes/bolsa.png">
-      <p>$ 250.000</p>
+    <div class="valor col-xs-6">    
+      <img src="http://www.desarrollodesitiosweb.cl/imagenes/bolsa.png">
+      <p>$ 375.000</p>
     </div>
     <div class="agregar col-xs-6">    
-    	<a href="carro-compra">agregar al carro <img src="imagenes/flecha.png"></a>
+      <a href="carro-compra">agregar al carro <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
     </div>    
   </div>
 
@@ -100,12 +99,12 @@ Además como todos los planes este incluye web hosting gratis por 1 año para su
   	<h2>NUESTRAS TECNOLOGÍAS</h2>
   	<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo.</p>
 	<article class="row">
-		<figure class="col-xs-12 col-sm-2"><img src="imagenes/laravel.png" width="100" height="100"></figure>
-		<figure class="col-xs-12 col-sm-2"><img src="imagenes/html5.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/css3.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/bootstrap.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/cpanel.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/github.png" width="100" height="100"></figure>
+		<figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/laravel.png" width="100" height="100"></figure>
+		<figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/html5.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/css3.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/bootstrap.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/cpanel.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/github.png" width="100" height="100"></figure>
   </article>
 </section>
 <!-- Hasta aca llega el cuadro de tecnologias -->
@@ -114,6 +113,6 @@ Además como todos los planes este incluye web hosting gratis por 1 año para su
     <p>Teléfono: +56 72 2 532 2645 - mail: ventas@desarrollodesitiosweb.cl</p>
 </footer>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="http://www.desarrollodesitiosweb.cl/js/bootstrap.min.js"></script> 
 </body>
 </html>

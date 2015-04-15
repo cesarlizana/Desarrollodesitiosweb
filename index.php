@@ -1,12 +1,25 @@
 <?php
 
-/*
- * El frontend controller se encarga de
- * configurar nuestra aplicacion
- */
 require 'config.php';
 require 'helpers.php';
 
-//Llamar al controlador indicado
+// Libraries
+require 'library/Request.php';
+require 'library/Inflector.php';
+require 'library/Response.php';
+require 'library/View.php';
 
-controller($_GET['url']);
+if (empty($_GET['url']))
+{
+    $url = '';
+}
+else
+{
+    $url = $_GET['url'];
+}
+
+$request = new Request($url);
+$request->execute();
+
+
+//our-team/about/freddier

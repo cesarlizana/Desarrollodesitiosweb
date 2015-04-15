@@ -1,12 +1,14 @@
 <?php
 
-// Declarando una funcion
+//Declara la funcion
 function view($template, $vars = array())
 {
     extract($vars);
 
     require "views/$template.php";
 }
+
+//~/contactos
 
 function controller($name)
 {
@@ -19,11 +21,10 @@ function controller($name)
 
     if (file_exists($file))
     {
-        require $file;
+        return require $file;
     }
-    else
-    {
-        header("HTTP/1.0 404 Not Found");
-        require "views/404.php";
-    }
+
+    //~/sdfsdfdsfdss
+    header("HTTP/1.0 404 Not Found");
+    exit("Pagina no encontrada");
 }

@@ -7,10 +7,9 @@
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
-    <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
-    <link href="css/secciones.css" rel="stylesheet">
+    <link href="http://www.desarrollodesitiosweb.cl/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="http://www.desarrollodesitiosweb.cl/css/secciones.css" rel="stylesheet" media="screen">
 </head>
 <body>
 <!-- Desde aca inicia el menu -->
@@ -44,7 +43,7 @@
         	<p>, mantener un nexo constante con nuestros clientes es lo primordial, ayudarlos en sus dudas y automatizar sus requerimientos para dar respuestas rápidas y seguimiento constantes es nuestra obligación</p>
     	</div>
     </div>
-    <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
+    <div class="circulo"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="15"></div>
 </section>
 <section id="informacion">
   <p>En esta sección puede solicitar ticket de soporte, notificar sus pagos, obtener información de nuestros proyectos y contacto.</p>
@@ -56,28 +55,28 @@
     <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menuayudacliente">
     	<h3>NOTIFICAR PAGO</h3>
     	<p>Desde esta plataforma puede notificar sus pagos de productos y servicios contratados con Emagenic</p>
-        <div class="circulo_rojo_flecha"><img src="imagenes/flecha_blanca.png" height="25"></div>
+        <div class="circulo_rojo_flecha"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="25"></div>
     </article>
     </a>
     <a href="ticket-de-soporte">
 	<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menuayudacliente">
     	<h3>TICKET DE SOPORTE</h3>
     	<p>Desde esta plataforma puede notificar sus problemas técnicos y solicitar ayuda</p>
-        <div class="circulo_rojo_flecha"><img src="imagenes/flecha_blanca.png" height="25"></div>
+        <div class="circulo_rojo_flecha"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="25"></div>
     </article>
     </a>
     <a href="contacto">
 	<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menuayudacliente">
     	<h3>ZONA DE CONTACTO</h3>
     	<p>Contactenos telefónica al numero +56 72 2532645 o escribanos al mail ventas@emagenic.cl, y en redes sociales y via skype como emagenicltda</p>
-        <div class="circulo_rojo_flecha"><img src="imagenes/flecha_blanca.png" height="25"></div>
+        <div class="circulo_rojo_flecha"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="25"></div>
     </article>
     </a>
     <a href="portafolio">
 	<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menuayudacliente">
     	<h3>NUESTROS PROYECTOS</h3>
     	<p>Escuentre información de nuestros proyectos mas destacados de diseño web, grafica y software en nuestro portafolio on line</p>
-        <div class="circulo_rojo_flecha"><img src="imagenes/flecha_blanca.png" height="25"></div>
+        <div class="circulo_rojo_flecha"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="25"></div>
     </article>
     </a>
 </section>
@@ -99,12 +98,12 @@
   	<h2>NUESTRAS TECNOLOGÍAS</h2>
   	<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo.</p>
 	<article class="row">
-		<figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="imagenes/laravel.png" width="100" height="100"></figure>
-		<figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="imagenes/html5.png" width="100" height="100"></figure>
-        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="imagenes/css3.png" width="100" height="100"></figure>
-        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="imagenes/bootstrap.png" width="100" height="100"></figure>
-        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="imagenes/cpanel.png" width="100" height="100"></figure>
-        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="imagenes/github.png" width="100" height="100"></figure>
+		<figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="http://www.desarrollodesitiosweb.cl/imagenes/laravel.png" width="100" height="100"></figure>
+		<figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="http://www.desarrollodesitiosweb.cl/imagenes/html5.png" width="100" height="100"></figure>
+        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="http://www.desarrollodesitiosweb.cl/imagenes/css3.png" width="100" height="100"></figure>
+        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="http://www.desarrollodesitiosweb.cl/imagenes/bootstrap.png" width="100" height="100"></figure>
+        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="http://www.desarrollodesitiosweb.cl/imagenes/cpanel.png" width="100" height="100"></figure>
+        <figure class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><img src="http://www.desarrollodesitiosweb.cl/imagenes/github.png" width="100" height="100"></figure>
   </article>
 </section>
 <!-- Hasta aca llega el cuadro de tecnologias -->
@@ -113,6 +112,6 @@
     <p>Teléfono: +56 72 2 532 2645 - mail: ventas@desarrollodesitiosweb.cl</p>
 </footer>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="http://www.desarrollodesitiosweb.cl/js/bootstrap.min.js"></script>
 </body>
 </html>

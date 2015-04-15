@@ -8,8 +8,8 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
-    <link href="css/secciones.css" rel="stylesheet">
+    <link href="http://www.desarrollodesitiosweb.cl/css/bootstrap.min.css" rel="stylesheet" media="screen">  
+    <link href="http://www.desarrollodesitiosweb.cl/css/secciones.css" rel="stylesheet" media="screen">
 </head>
 <body>
 <!-- Desde aca inicia el menu -->
@@ -24,11 +24,11 @@
     </div>    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="desarrollo-web">VOLVER</a></li>
-        <li class="active"><a href="desarrollo-web">DESARROLLO WEB</a></li>
+        <li><a href="../">INICIO</a></li>
+        <li class="active"><a href="../desarrollo-web">DESARROLLO WEB</a></li>
         <li><a href="newsletter">NEWS LETTER</a></li>
         <li><a href="landing-page">LANDING PAGE</a></li>
-        <li><a href="contacto">CONTACTO</a></li>
+        <li><a href="../contacto">CONTACTO</a></li>
       </ul>
     </div>
   </div>
@@ -47,7 +47,7 @@
  		  </div>
     </div>
   </div>
-  <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
+  <div class="circulo"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="15"></div>
 </section>
 <!-- Hasta aca llega el banner -->
 
@@ -64,7 +64,7 @@
   </p>
 
   <div class="col-xs 12 btn-planes">
-    <a href="comparar-planes">comparar Planes <img src="imagenes/flecha.png"></a>
+    <a href="comparar-planes">comparar Planes <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
   </div>
 
   <p><b>Clientes frecuentes del plan:</b> Micro empresas - Organizaciones deportivas - Pymes de Servicios y Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
@@ -72,11 +72,11 @@
   <h3>VALOR ÚNICO</h3>
   <div class="row carro">
     <div class="valor col-xs-6">    
-      <img src="imagenes/bolsa.png">
+      <img src="http://www.desarrollodesitiosweb.cl/imagenes/bolsa.png">
       <p>$ 250.000</p>
     </div>
     <div class="agregar col-xs-6">    
-      <a href="carro-compra">agregar al carro <img src="imagenes/flecha.png"></a>
+      <a href="carro-compra">agregar al carro <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
     </div>    
   </div>
 
@@ -99,12 +99,12 @@
   	<h2>NUESTRAS TECNOLOGÍAS</h2>
   	<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo.</p>
 	<article class="row">
-		<figure class="col-xs-12 col-sm-2"><img src="imagenes/laravel.png" width="100" height="100"></figure>
-		<figure class="col-xs-12 col-sm-2"><img src="imagenes/html5.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/css3.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/bootstrap.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/cpanel.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/github.png" width="100" height="100"></figure>
+		<figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/laravel.png" width="100" height="100"></figure>
+		<figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/html5.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/css3.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/bootstrap.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/cpanel.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/github.png" width="100" height="100"></figure>
   </article>
 </section>
 <!-- Hasta aca llega el cuadro de tecnologias -->
@@ -113,6 +113,6 @@
     <p>Teléfono: +56 72 2 532 2645 - mail: ventas@desarrollodesitiosweb.cl</p>
 </footer>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="http://www.desarrollodesitiosweb.cl/js/bootstrap.min.js"></script>  
 </body>
 </html>

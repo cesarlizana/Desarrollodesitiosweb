@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Desarrollamos el sitio web plan 3 básico</title>
-    <meta name="description" content="Un sitio web plan 3 basico es un sitio de hasta 12 secciones, con muchas posibilidades de montar contenido completamente administrable">
+    <title>Desarrollamos el sitio web plan 1 básico</title>
+    <meta name="description" content="El desarrollo de sitio web plan 1 basico es el plan mas economico que nuestra empresa ofrece a sus clientes, es administrable y ampliable">
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
-    <link href="css/secciones.css" rel="stylesheet">
+    <link href="http://www.desarrollodesitiosweb.cl/css/bootstrap.min.css" rel="stylesheet" media="screen">  
+    <link href="http://www.desarrollodesitiosweb.cl/css/secciones.css" rel="stylesheet" media="screen">
 </head>
 <body>
 <!-- Desde aca inicia el menu -->
@@ -24,30 +24,31 @@
     </div>    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="desarrollo-web">VOLVER</a></li>
-        <li class="active"><a href="desarrollo-web">DESARROLLO WEB</a></li>
+        <li><a href="../">INICIO</a></li>
+        <li class="active"><a href="../desarrollo-web">DESARROLLO WEB</a></li>
         <li><a href="newsletter">NEWS LETTER</a></li>
         <li><a href="landing-page">LANDING PAGE</a></li>
-        <li><a href="contacto">CONTACTO</a></li>
+        <li><a href="../contacto">CONTACTO</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- Hasta aca  el menu -->
 <!-- Desde aca inicia el banner -->
-<section class="row" id="banner_plan3basico"> 
+<section class="row" id="banner_plan1basico">
   <div class="overlay">
   	<div class="textslogan distanciapositiva col-xs-12">
-      DESARROLLOS DE SITIOS WEB PLAN 3
+      DESARROLLOS DE SITIOS WEB PLAN 1
     </div>
     <div class="col-xs-12">
  		  <div class="contenedor_slogar">
-	    	<h1>Sitio web a medida</h1>
-        <p>, potente, administrable y con hosting gratis por un año. Plan 3, hasta 12 secciones a su medida</p>
-    	</div>
+	     <h1>Diseño de sitio web económico</h1>
+        <p>, confiable y seguro. Un sitio que podra administrar usted mismo sin depender de terceros.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
+  </div>  
+    <div class="circulo"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="15"></div>
 </section>
 <!-- Hasta aca llega el banner -->
 
@@ -57,27 +58,28 @@
 </section>
 <!-- Hasta aca llega el cuadro informacion -->
 <section id="detalleplanweb">
-  <h2>El plan 3 fue creado solo para grandes empresas</h2>
+  <h2>El plan 1 fue hasta el 2014 el plan mas demandado por los emprendedores</h2>
   <p>
-    Una empresa que necesita un sitio web plan es una empresa que sabe lo que quiere, con 12 secciones de contenido administrable el plan 3 es una herramienta altamente equipada para la difusión de material, como por ejemplo en universidades, institutos, empresas de ingeniaría, etc.<br>
-    Estas 12 secciones pueden ser fácilmente secciones de contenido incremental como servicios, productos que solo utilizan 2 secciones, la global y el detalle, por lo que aun existen mucho espacio disponible para la difusión.<br>
-    Además de esto el plan 3 incluye un web hosting de 1 giga que permite almacenar no solo el sitio web, también sus correos electrónicos corporativos y bases de datos.
+  Uno de los planes mas demandados por los emprendedores, ya que además de ser el mas económico es auto administrable y permite ampliar a los otros planes, sin embargo aun que es compatible con celulares su grafica no esta optimizada para ellos, por lo que vera el sitio igual que en una computadora pero mas pequeño.<br>
+  Este plan esta formado por hasta 4 secciones de contenido administrable, eso quiere decir que s puede cambiar su contenido, no su forma, de esta manera podrá agregar mas productos, servicios, modificar el quienes somos, cambiar su numero de teléfono, etc. Todo esto desde una plataforma de administración propia y simple.
+  Además si desea se pueden agregar estas secciones de gama especial a pedido.
   </p>
 
   <div class="col-xs 12 btn-planes">
-    <a href="comparar-planes">comparar Planes <img src="imagenes/flecha.png"></a>
+    <a href="comparar-planes">comparar Planes <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
   </div>
 
-  <p><b>Clientes frecuentes del plan:</b> Organizaciones educacionales - Medianas y grandes empresa - Federaciones o asociaciones - Instituciones gubernamentales - Empresas internacionales - Directorios de cualquier tipo</p>
+  <p><b>Clientes frecuentes del plan:</b> Micro empresas - Organizaciones deportivas - Pymes de Servicios Pymes de comercialización - Bloggers
+  </p>
 
   <h3>VALOR ÚNICO</h3>
   <div class="row carro">
-    <div class="valor col-xs-6">    
-      <img src="imagenes/bolsa.png">
-      <p>$ 300.000</p>
+	 <div class="valor col-xs-6">    
+    	<img src="http://www.desarrollodesitiosweb.cl/imagenes/bolsa.png">
+      <p>$ 180.000</p>
     </div>
     <div class="agregar col-xs-6">    
-      <a href="carro-compra">agregar al carro <img src="imagenes/flecha.png"></a>
+    	<a href="carro-compra">agregar al carro <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
     </div>    
   </div>
 
@@ -100,12 +102,12 @@
   	<h2>NUESTRAS TECNOLOGÍAS</h2>
   	<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo.</p>
 	<article class="row">
-		<figure class="col-xs-12 col-sm-2"><img src="imagenes/laravel.png" width="100" height="100"></figure>
-		<figure class="col-xs-12 col-sm-2"><img src="imagenes/html5.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/css3.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/bootstrap.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/cpanel.png" width="100" height="100"></figure>
-    <figure class="col-xs-12 col-sm-2"><img src="imagenes/github.png" width="100" height="100"></figure>
+		<figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/laravel.png" width="100" height="100"></figure>
+		<figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/html5.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/css3.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/bootstrap.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/cpanel.png" width="100" height="100"></figure>
+    <figure class="col-xs-12 col-sm-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/github.png" width="100" height="100"></figure>
   </article>
 </section>
 <!-- Hasta aca llega el cuadro de tecnologias -->
@@ -114,6 +116,6 @@
     <p>Teléfono: +56 72 2 532 2645 - mail: ventas@desarrollodesitiosweb.cl</p>
 </footer>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
+<script src="http://www.desarrollodesitiosweb.cl/js/bootstrap.min.js"></script> 
 </body>
 </html>
