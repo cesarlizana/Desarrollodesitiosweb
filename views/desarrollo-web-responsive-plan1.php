@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Desarrollamos el sitio web plan 1 básico</title>
-    <meta name="description" content="El desarrollo de sitio web plan 1 basico es el plan mas economico que nuestra empresa ofrece a sus clientes, es administrable y ampliable">
+    <title>Sitio web responsivo plan 1</title>
+    <meta name="description" content="Desarrollo web responsivo plan 1, el producto mas demandado por nuestros clientes, hasta 4 secciones de contenido administrable e ilimitadas posibilidades">
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
@@ -35,17 +35,15 @@
 </nav>
 <!-- Hasta aca  el menu -->
 <!-- Desde aca inicia el banner -->
-<section class="row" id="banner_plan1basico">
+<section class="row" id="banner_plan1responsive">
   <div class="overlay">
   	<div class="textslogan distanciapositiva col-xs-12">
-      DESARROLLOS DE SITIOS WEB PLAN 1
+      DESARROLLOS DE SITIOS WEB PLAN 1 RESPONSIVE
     </div>
     <div class="col-xs-12">
  		  <div class="contenedor_slogar">
-	     <h1>Diseño de sitio web económico</h1>
-        <p>, confiable y seguro. Un sitio que podra administrar usted mismo sin depender de terceros.
-        </p>
-      </div>
+	     <h1>Diseño de sitio web compatible con móviles</h1>
+        <p>, hasta 4 secciones de contenido administrable, hosting gratis por un año y correo corporativo</p></div>
     </div>
   </div>  
     <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
@@ -58,11 +56,11 @@
 </section>
 <!-- Hasta aca llega el cuadro informacion -->
 <section id="detalleplanweb">
-  <h2>El plan 1 fue hasta el 2014 el plan mas demandado por los emprendedores</h2>
+  <h2>El plan 1 responsive es el actual plan mas demandado por los emprendedores</h2>
   <p>
-  Uno de los planes mas demandados por los emprendedores, ya que además de ser el mas económico es auto administrable y permite ampliar a los otros planes, sin embargo aun que es compatible con celulares su grafica no esta optimizada para ellos, por lo que vera el sitio igual que en una computadora pero mas pequeño.<br>
-  Este plan esta formado por hasta 4 secciones de contenido administrable, eso quiere decir que s puede cambiar su contenido, no su forma, de esta manera podrá agregar mas productos, servicios, modificar el quienes somos, cambiar su numero de teléfono, etc. Todo esto desde una plataforma de administración propia y simple.
-  Además si desea se pueden agregar estas secciones de gama especial a pedido.
+  Desde abril del 2015 uno de los requerimientos para posicionarse en google es que el sitio sea amigable con los móviles y este plan es altamente compatible con ellos.
+Todos nuestros planes responsivos son desarrollados con bootstrap, un framework desarrollado por twitter que permite crear sitios web compatibles y auto ajustables a móviles. A estos les implementamos una plataforma de administración que permite administrar el contenido, permitiendo incorporar novedad cada día para sus usuarios.<br>
+Además como todos los planes este incluye web hosting gratis por 1 año para sus correos electrónicos y sitio web.
   </p>
 
   <div class="col-xs 12 btn-planes">
@@ -76,7 +74,7 @@
   <div class="row carro">
 	 <div class="valor col-xs-6">    
     	<img src="imagenes/bolsa.png">
-      <p>$ 180.000</p>
+      <p>$ 250.000</p>
     </div>
     <div class="agregar col-xs-6">    
     	<a href="carro-compra">agregar al carro <img src="imagenes/flecha.png"></a>

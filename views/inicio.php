@@ -115,7 +115,7 @@
                             </div>
                             <div class="tituloservicio">
                                 <h3 class="h3servicios">HOSTING</h3>
-                                <p>Servidor confiable y seguro con respaldo automatico </p> 
+                                <p>Servidor confiable y seguro </p> 
                             </div>
                         </figcaption>
                     </a>    

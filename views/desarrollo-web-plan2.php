@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Desarrollamos el sitio web plan 1 básico</title>
-    <meta name="description" content="El desarrollo de sitio web plan 1 basico es el plan mas economico que nuestra empresa ofrece a sus clientes, es administrable y ampliable">
+    <title>Desarrollamos el sitio web plan 2 básico</title>
+    <meta name="description" content="Plan 2 basico de desarrollo web es un producto potente, de hasta 7 secciones administrables mas contacto y noticias">
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
@@ -35,20 +35,19 @@
 </nav>
 <!-- Hasta aca  el menu -->
 <!-- Desde aca inicia el banner -->
-<section class="row" id="banner_plan1basico">
+<section class="row" id="banner_plan2basico">
   <div class="overlay">
-  	<div class="textslogan distanciapositiva col-xs-12">
-      DESARROLLOS DE SITIOS WEB PLAN 1
+	  <div class="textslogan distanciapositiva col-xs-12">
+      DESARROLLOS DE SITIOS WEB PLAN 2
     </div>
     <div class="col-xs-12">
  		  <div class="contenedor_slogar">
-	     <h1>Diseño de sitio web económico</h1>
-        <p>, confiable y seguro. Un sitio que podra administrar usted mismo sin depender de terceros.
-        </p>
-      </div>
+	    	<h1>Diseño de sitio web administrable</h1>
+        <p>, hasta 7	secciones	que podra solicitar de acuerdo a sus necesidades</p>
+ 		  </div>
     </div>
-  </div>  
-    <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
+  </div>
+  <div class="circulo"><img src="imagenes/flecha_blanca.png" height="15"></div>
 </section>
 <!-- Hasta aca llega el banner -->
 
@@ -58,28 +57,26 @@
 </section>
 <!-- Hasta aca llega el cuadro informacion -->
 <section id="detalleplanweb">
-  <h2>El plan 1 fue hasta el 2014 el plan mas demandado por los emprendedores</h2>
+  <h2>El plan 2 basico, diseñado para empresas con ideas claras</h2>
   <p>
-  Uno de los planes mas demandados por los emprendedores, ya que además de ser el mas económico es auto administrable y permite ampliar a los otros planes, sin embargo aun que es compatible con celulares su grafica no esta optimizada para ellos, por lo que vera el sitio igual que en una computadora pero mas pequeño.<br>
-  Este plan esta formado por hasta 4 secciones de contenido administrable, eso quiere decir que s puede cambiar su contenido, no su forma, de esta manera podrá agregar mas productos, servicios, modificar el quienes somos, cambiar su numero de teléfono, etc. Todo esto desde una plataforma de administración propia y simple.
-  Además si desea se pueden agregar estas secciones de gama especial a pedido.
+    Uno de los requerimientos mas importantes para empresas con ideas claras es contar con una cantidad de secciones extensa, eso lo entrega el plan 2 y plan 3 de desarrollo de sitios web, normalmente uno de los problemas que se presentan en empresas pequeñas es saben que necesitan un sitio web pero no que publicar en ellos, en la empresas con una planificación, con un plan de trabajo la cantidad de secciones es muy importante y este plan lo ofrece a cabalidad.<br>
+    Estas secciones no son mucho si no presentamos la posibilidad de administrar su contenido, ya que los usuarios que visiten el sitio si se encuentran con la misma información cada vez que visitan la pagina dejan de hacerlo por que saben con no existe novedad
   </p>
 
   <div class="col-xs 12 btn-planes">
     <a href="comparar-planes">comparar Planes <img src="imagenes/flecha.png"></a>
   </div>
 
-  <p><b>Clientes frecuentes del plan:</b> Micro empresas - Organizaciones deportivas - Pymes de Servicios Pymes de comercialización - Bloggers
-  </p>
+  <p><b>Clientes frecuentes del plan:</b> Micro empresas - Organizaciones deportivas - Pymes de Servicios y Pymes de comercialización - Bloggers - Otec o instituciones eduacionales</p>
 
   <h3>VALOR ÚNICO</h3>
   <div class="row carro">
-	 <div class="valor col-xs-6">    
-    	<img src="imagenes/bolsa.png">
-      <p>$ 180.000</p>
+    <div class="valor col-xs-6">    
+      <img src="imagenes/bolsa.png">
+      <p>$ 250.000</p>
     </div>
     <div class="agregar col-xs-6">    
-    	<a href="carro-compra">agregar al carro <img src="imagenes/flecha.png"></a>
+      <a href="carro-compra">agregar al carro <img src="imagenes/flecha.png"></a>
     </div>    
   </div>
 

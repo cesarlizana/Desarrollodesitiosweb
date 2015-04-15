@@ -36,9 +36,9 @@
 <!-- Hasta aca  el menu -->
 <!-- Desde aca inicia el banner -->
 <section class="row" id="banner_desarrolloweb">  
-	<div class="textslogan distanciapositiva col-lg-12 col-md-12 col-sm-12 col-xs-12">DESARROLLOS DE SITIOS WEB
+	<div class="textslogan distanciapositiva col-xs-12">SITIOS WEB
 ADMINISTRABLES Y POSICIONABLES</div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-xs-12">
  		<div class="contenedor_slogar">
 	    	<h1>Desarrollo de sitios web</h1>
         	<p>, diseñamos su plataforma a su medida, bajo sus necesidades, sin Plantillas, administrables y 
@@ -58,117 +58,125 @@ ADMINISTRABLES Y POSICIONABLES</div>
 <!-- Hasta aca llega el cuadro informacion -->
 
 <!-- Desde aca seccion desarrolloweb -->
-<section id="desarrolloweb" >
+<section class="col-xs-12" id="desarrolloweb" >
 	<div class="row contenidoplan">
-    	<article class="col-xs-12 col-sm-6">
-        	<div class="row col-xs-12">
-        		<!-- PRIMER PLAN CHICO -->
-                <a href="desarrollo-web-plan1">
-                <article class="col-xs-12">
-        			<figure class="figureplan1"></figure>
-                    <div class="separador">
-                        <div class="circuloredgrande"><p>$180.000</p></div>
-                    </div>
-                    <div>
-                        <h3>PLAN 1</h3>
-                        <p>-2 a 4 secciones administrables <br>
-                        - 1 formulario de contacto, seccion de noticias,Slideshow<br>
-                        - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
-                    </div>
-        		</article>
-                </a>
-        		<!-- SEGUNDO PLAN CHICO -->
-                <a href="desarrollo-web-plan2">
-                <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        			<figure class="figureplan2"></figure>
-                    <div class="separador">
-                        <div class="circuloredgrande"><p>$250.000</p></div>
-                    </div>
-                    <div>
-                        <h3>PLAN 2</h3>
-                        <p>5 a 7 secciones administrables <br>
-                        - 1 formulario de contacto, seccion de noticias,Slideshow<br>
-                        - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
-                    </div>
-        		</article>
-                </a>
-                <!-- HASTA SEGUNDO PLAN CHICO -->
-              </div> <!-- CIERRA ROW --> 
-        </article> <!-- CIERRA COL DE LA MITAD LG6 MD6 SM6  -->
-		<a href="desarrollo-web-responsive-plan1">
-    	<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        	<figure class="figureplan1responsive"></figure>
-        	<div class="separador">
-            	<div class="circuloredgrande"><p>$250.000</p></div>
-            </div>
-        	<div>
-            	<h3>PLAN 1 RESPONSIVE</h3>
-                <p>-2 a 4 secciones administrables <br>
-                - 1 formulario de contacto <br>
-                - 1 seccion de noticias <br>
-                - slideshow<br>
-				- hosting plan 300 1 año <br>
-                - Optimizado a moviles, Html5 - Css3 - Php</p>
-            </div>
-        </article>
-        </a>
-    </div> <!-- CIERRA ROW PRIMERA FILA GENERAL -->
-    <div class="row contenidoplan">
-        <a href="desarrollo-web-responsive-plan2">
-        	<article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            	<figure class="figureplan2responsive"></figure>
-            	<div class="separador">
-                	<div class="circuloredgrande"><p>$375.000</p></div>
-                </div>
-            	<div>
-                	<h3>PLAN 2 RESPONSIVE</h3>
-                    <p>-5 a 7 secciones administrables <br>
-                    - 1 formulario de contacto <br>
-                    - 1 seccion de noticias <br>
-                    - slideshow<br>
-    				- hosting plan 300 1 año <br>
-                    - Optimizado a moviles, Html5 - Css3 - Php</p>
-                </div>
-            </article>
-        </a>
 
-        <a href="desarrollo-web-plan3">
-            <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            	<div class="row col-xs-12">
-            		<!-- PRIMER PLAN CHICO -->
-                    <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            			<figure class="figureplan3"></figure>
+    	<article class="col-xs-12 col-sm-6">       
+
+        		<!-- PRIMER PLAN CHICO -->
+                <a class="col-xs-12" href="desarrollo-web-plan1">
+                    <article class="plan col-xs-12">
+            			<figure class="figureplan1"></figure>
                         <div class="separador">
-                            <div class="circuloredgrande"><p>$300.000</p></div>
+                            <div class="circulosmall"><p>$180.000</p></div>
                         </div>
-                        <div>
-                            <h3>PLAN 3 BASICO</h3>
-                            <p>-8 a 12 secciones administrables <br>
+                        <div class="info">
+                            <h3>PLAN 1</h3>
+                            <p>-2 a 4 secciones administrables <br>
                             - 1 formulario de contacto, seccion de noticias,Slideshow<br>
                             - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
                         </div>
             		</article>
                 </a>
+
         		<!-- SEGUNDO PLAN CHICO -->
-                <a href="desarrollo-web-responsive-plan3">
-                <article class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        			<figure class="figureplan3responsive"></figure>
-                    <div class="separador">
-                        <div class="circuloredgrande"><p>$450.000</p></div>
-                    </div>
-                    <div>
-                        <h3>PLAN 3 RESPONSIVE</h3>
-                        <p>8 a 12 secciones administrables <br>
-                        - 1 formulario de contacto, seccion de noticias,Slideshow<br>
-                        - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
-                    </div>
-        		</article>
+                <a class="col-xs-12" href="desarrollo-web-plan2">
+                    <article class="plan col-xs-12">
+            			<figure class="figureplan2"></figure>
+                        <div class="separador">
+                            <div class="circulosmall"><p>$250.000</p></div>
+                        </div>
+                        <div class="info">
+                            <h3>PLAN 2</h3>
+                            <p>5 a 7 secciones administrables <br>
+                            - 1 formulario de contacto, seccion de noticias,Slideshow<br>
+                            - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
+                        </div>
+            		</article>
                 </a>
                 <!-- HASTA SEGUNDO PLAN CHICO -->
-              </div> <!-- CIERRA ROW --> 
         </article> <!-- CIERRA COL DE LA MITAD LG6 MD6 SM6  -->
 
-    	
+        <article class="col-xs-12 col-sm-6">  
+        		<a class="col-xs-12" href="desarrollo-web-responsive-plan1">
+                	<article class="plan col-xs-12">
+                    	<figure class="figureplan1responsive"></figure>
+                    	<div class="separador">
+                        	<div class="circuloredgrande"><p>$250.000</p></div>
+                        </div>
+                    	<div class="info">
+                        	<h3>PLAN 1 RESPONSIVE</h3>
+                            <p>-2 a 4 secciones administrables <br>
+                            - 1 formulario de contacto <br>
+                            - 1 seccion de noticias <br>
+                            - slideshow<br>
+            				- hosting plan 300 1 año <br>
+                            - Optimizado a moviles, Html5 - Css3 - Php</p>
+                        </div>
+                    </article>
+                </a>
+        </article>
+
+    </div> <!-- CIERRA ROW PRIMERA FILA GENERAL -->
+
+    <div class="row contenidoplan">
+
+        <article class="col-xs-12 col-sm-6">  
+                <a class="col-xs-12" href="desarrollo-web-responsive-plan2">
+                    <article class="plan col-xs-12">
+                        <figure class="figureplan2responsive"></figure>
+                        <div class="separador">
+                            <div class="circuloredgrande"><p>$375.000</p></div>
+                        </div>
+                        <div class="info">
+                            <h3>PLAN 2 RESPONSIVE</h3>
+                            <p>-5 a 7 secciones administrables <br>
+                            - 1 formulario de contacto <br>
+                            - 1 seccion de noticias <br>
+                            - slideshow<br>
+                            - hosting plan 300 1 año <br>
+                            - Optimizado a moviles, Html5 - Css3 - Php</p>
+                        </div>
+                    </article>
+                </a>
+        </article>
+
+        <article class="col-xs-12 col-sm-6">       
+
+                <!-- PRIMER PLAN CHICO -->
+                <a class="col-xs-12" href="desarrollo-web-plan3">
+                    <article class="plan col-xs-12">
+                        <figure class="figureplan3"></figure>
+                        <div class="separador">
+                            <div class="circulosmall"><p>$300.000</p></div>
+                        </div>
+                        <div class="info">
+                            <h3>PLAN 3 BASICO</h3>
+                            <p>-8 a 12 secciones administrables <br>
+                            - 1 formulario de contacto, seccion de noticias,Slideshow<br>
+                            - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
+                        </div>
+                    </article>
+                </a>
+
+                <!-- SEGUNDO PLAN CHICO -->
+                <a class="col-xs-12" href="desarrollo-web-responsive-plan3">
+                    <article class="plan col-xs-12">
+                        <figure class="figureplan3responsive"></figure>
+                        <div class="separador">
+                            <div class="circulosmall"><p>$450.000</p></div>
+                        </div>
+                        <div class="info">
+                            <h3>PLAN 3 RESPONSIVE</h3>
+                            <p>8 a 12 secciones administrables <br>
+                            - 1 formulario de contacto, seccion de noticias,Slideshow<br>
+                            - hosting plan 300 1 año gratis, Compatible a moviles, Html5 - Css3 - Php</p>
+                        </div>
+                    </article>
+                </a>
+                <!-- HASTA SEGUNDO PLAN CHICO -->
+        </article> <!-- CIERRA COL DE LA MITAD LG6 MD6 SM6  -->
+  	
     </div> <!-- CIERRA ROW GENERAL -->
   
   
