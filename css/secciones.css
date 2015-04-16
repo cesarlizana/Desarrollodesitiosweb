@@ -249,7 +249,38 @@ html {
 	padding:0;
 	margin:auto;
 }
+#metodologia .metocompleto .sobre{
+	opacity: 0;
+    background-color: #6da552;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
 
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#metodologia .metocompleto .sobre:hover{
+	opacity: 1;
+    background-color: #6da552;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 /* SECCIONES DE CONTACTO  */
 #banner_contacto {
 	margin: 0;

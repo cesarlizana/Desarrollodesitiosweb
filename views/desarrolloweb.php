@@ -25,10 +25,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="../">INICIO</a></li>
-        <li  class="active"><a href="/">DESARROLLO WEB</a></li>
+        <li  class="active"><a href="/desarrollo-web">DESARROLLO WEB</a></li>
         <li><a href="desarrollo-web/newsletter">NEWS LETTER</a></li>
         <li><a href="desarrollo-web/landing-page">LANDING PAGE</a></li>
-        <li><a href="contacto">CONTACTO</a></li>
+        <li><a href="desarrollo-web/contacto">CONTACTO</a></li>
       </ul>
     </div>
   </div>

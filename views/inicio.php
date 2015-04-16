@@ -166,19 +166,31 @@
     <p class="wow fadeInLeft">Seguimos una matedología de trabajo única que nos ha llevado a estar posicionada en el mercado.</p>
 	<div class="row metocompleto">
     	<a href="desarrollo-web">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 metocompleto wow fadeInDown">
-        	<img src="http://www.desarrollodesitiosweb.cl/imagenes/servicos/metodologia-web.jpg" width="100%">
-		</div>
+            <div class="col-xs-12 col-sm-4 metocompleto wow fadeInDown">
+                <div class="sobre">
+                    <p>Sitios Web</p>
+                    <p class="ver">+</p>
+                </div>
+            	<img src="http://www.desarrollodesitiosweb.cl/imagenes/servicos/metodologia-web.jpg" width="100%">
+    		</div>
         </a>
 		<a href="diseno-grafico">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 metocompleto wow fadeInDown">
-        	<img src="http://www.desarrollodesitiosweb.cl/imagenes/servicos/metodologia-diseno.jpg" width="100%">
-		</div>
+            <div class="col-xs-12 col-sm-4 metocompleto wow fadeInDown">
+                <div class="sobre">
+                    <p>Diseño Gráfico</p>
+                    <p class="ver">+</p>
+                </div>
+            	<img src="http://www.desarrollodesitiosweb.cl/imagenes/servicos/metodologia-diseno.jpg" width="100%">
+    		</div>
         </a>
 		<a href="carro-de-compras">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 metocompleto wow fadeInDown">
-        	<img src="http://www.desarrollodesitiosweb.cl/imagenes/servicos/metodologia-carro.jpg" width="100%">
-		</div>
+            <div class="col-xs-12 col-sm-4 metocompleto wow fadeInDown">
+                <div class="sobre">
+                    <p>Carro de Compras</p>
+                    <p class="ver">+</p>
+                </div>
+            	<img src="http://www.desarrollodesitiosweb.cl/imagenes/servicos/metodologia-carro.jpg" width="100%">
+    		</div>
         </a>
     </div>
 </section>

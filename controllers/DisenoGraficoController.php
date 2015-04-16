@@ -6,5 +6,16 @@ class DisenoGraficoController {
     {
         return new View('disenografico');
     }
-    
+    public function imagencorporativaAction()
+    {
+        return new View('imagen-corporativa');
+    }
+	public function disenoAction()
+    {
+        return new View('diseno');
+    }
+	public function impresionAction()
+    {
+        return new View('impresion');
+    }
 }

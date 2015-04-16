@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>DIseño grafico para grandes proyectos</title>
-    <meta name="description" content="Una imagen habla mas que mil palabras, es verdad y eso podria marcar la diferencia en el exito de su campaña de difusión">
+    <title>Impresiónn digital de sus diseños</title>
+    <meta name="description" content="Un sitio web bien estructurado, administrable, amigable con los móviles y con urls planificadas para google es sinónimo de éxito">
     <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
@@ -26,10 +26,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="../">INICIO</a></li>
-        <li  class="active"><a href="../diseno-grafico">DISEÑO GRÁFICO</a></li>
-        <li><a href="diseno-grafico/imagen-corporativa">IMAGEN CORPORATIVA</a></li>
-        <li><a href="diseno-grafico/diseno">DISEÑOS</a></li>
-        <li><a href="diseno-grafico/impresion">IMPRESIÓN</a></li>
+        <li><a href="../diseno-grafico">DISEÑO GRÁFICO</a></li>
+        <li><a href="imagen-corporativa">IMAGEN CORPORATIVA</a></li>
+        <li><a href="diseno">DISEÑOS</a></li>
+        <li  class="active"><a href="impresion">IMPRESIÓN</a></li>
         <li><a href="contacto">CONTACTO</a></li>
       </ul>
     </div>
@@ -40,7 +40,7 @@
 <section class="row" id="banner_disenografico">  
 	<div class="overlay">
     <div class="textslogan distanciapositiva col-xs-12 wow fadeInLeft">
-      Diseño Gráfico e imagen corporativa
+      Impresión Digital
     </div>
     <div class="col-xs-12">
         <div class="contenedor_slogar wow fadeInRight">
@@ -106,7 +106,7 @@
                             empresa, debe ser el fiel reflejo de la visión de esta y
                             solo se cambia si la organización cambia de rumbo.
                         </p>
-                        <a href="diseno-grafico/imagen-corporativa">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
+                        <a href="imagen-corporativa">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                             grandes familias tenían un escudo de las identificaba,
                             en las empresas su logotipo debe ser algo muy similar.
                         </p>
-                        <a href="diseno-grafico/diseno">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
+                        <a href="diseno">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                             empresa para marcar la diferencia, Windows visión,
                             adhesivos e imantados para sus vehículos.
                         </p>
-                        <a href="diseno-grafico/impresion">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
+                        <a href="impresion">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
                     </div>
                 </div>
             </div>
