@@ -89,15 +89,29 @@ class Request {
 
         if ( ! file_exists($controllerFile))
         {
-            exit('error 404');
-        }
+			
+			$host= $_SERVER["HTTP_HOST"];
+			$urlvalida= $_SERVER["REQUEST_URI"];
+			
+			
+			
+            $resturl = substr($urlvalida, -2);
+			if ($resturl=="nw"){
+				require 'views/detallenovedades.php';
+			} else {				
+				require 'views/inicio.php';
+			}
+			
+			
+        }else {
 
         require $controllerFile;
-
+		
         $controllerClass = new $controllerName;
         $response = $controllerClass->$actionName();
 
         $this->printResponse($response);
+		}
     }
 
     public function printResponse($response)

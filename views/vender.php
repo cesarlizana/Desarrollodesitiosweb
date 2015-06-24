@@ -1,0 +1,1 @@
+<?php header("location: http://www.desarrollodesitiosweb.cl/vender/index.php","_self"); ?>

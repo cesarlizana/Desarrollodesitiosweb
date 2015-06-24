@@ -1,207 +1,419 @@
+<?php include("Conexion_emagenic.php"); ?>
 <!doctype html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>DIseño grafico para grandes proyectos</title>
-    <meta name="description" content="Una imagen habla mas que mil palabras, es verdad y eso podria marcar la diferencia en el exito de su campaña de difusión">
-    <meta name="keywords" content="desarrollo web, sitios web, paginas web, diseño web, paginas de internet, carro de compras">
-    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
-   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://www.desarrollodesitiosweb.cl/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="http://www.desarrollodesitiosweb.cl/css/secciones.css" rel="stylesheet" media="screen">
-    <link href="http://www.desarrollodesitiosweb.cl/css/animate.css" rel="stylesheet" type="text/css" media="all">
+ <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Desarrollo de sitios web" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://www.desarrollodesitiosweb.cl" />
+        <meta property="og:image" content="http://www.desarrollodesitiosweb.cl/imagenes/logobanner.png" />
+        <meta property="og:description" content="Desarrollamos sitios web a medida para todo tipo de organizaciones que necesiten una solucion web" />
+        <meta property="og:site_name" content="Desarrollo de sitio web, i.e. Moz" />
+        <meta property="article:published_time" content="2015-05-06T05:59:00+01:00" />
+        <meta property="article:modified_time" content="2015-05-06T19:08:47+01:00" />
+        <meta property="article:section" content="Desarrollo-web" />
+        <meta property="article:tag" content="Article Tag" />
+        <meta property="fb:admins" content="180900685293639" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Diseño Gráfico Rancagua - Emagenic Ltda</title>
+        <meta name="description" content="Diseñamos de forma profesional todas tus ideas para negocios, instituciones y particulares">
+  		<link rel="shortcut icon" href="http://www.desarrollodesitiosweb.cl/imagenes/icon.png">
+  		<meta name="AUTHOR" content="Emagenic Ltda">
+  		<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+	    <link href="../css/secciones.css" rel="stylesheet" media="screen">
+	    <link href="../animate.css" rel="stylesheet" type="text/css" media="all">
+	    <script src="http://www.desarrollodesitiosweb.cl/js/modernizr.custom.js"></script>
+	    <script src="http://www.desarrollodesitiosweb.cl/js/snap.svg-min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?30iy4xVkkwOZgOzZ5uk65bzpOFtxqDkw";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' debe ser dirección de correo.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' es obligatorio.\n'; }
+    } if (errors) alert('Existen los siguientes errores:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
 </head>
-<body>
-<!-- Desde aca inicia el menu -->
-<nav class="navbar-inverse navbar-fixed-top menu wow fadeInDown">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="../">INICIO</a></li>
-        <li  class="active"><a href="../diseno-grafico">DISEÑO GRÁFICO</a></li>
-        <li><a href="diseno-grafico/imagen-corporativa">IMAGEN CORPORATIVA</a></li>
-        <li><a href="diseno-grafico/diseno">DISEÑOS</a></li>
-        <li><a href="diseno-grafico/impresion">IMPRESIÓN</a></li>
-        <li><a href="contacto">CONTACTO</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Hasta aca  el menu -->
-<!-- Desde aca inicia el banner -->
-<section class="row" id="banner_disenografico">  
-	<div class="overlay">
-    <div class="textslogan distanciapositiva col-xs-12 wow fadeInLeft">
-      Diseño Gráfico e imagen corporativa
-    </div>
-    <div class="col-xs-12">
-        <div class="contenedor_slogar wow fadeInRight">
-            <h1>Una imagen habla mas que mil palabras</h1>
-            <p>, es por esto que debe ser diseñada por profesionales que no cometerán errores y explotaran al máximo este recurso.
-            </p>
-        </div>
-        <a class="wow fadeInDown">trabajemos juntos</a>
-    </div>
-  </div>
-    <div class="circulo"><img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" height="15"></div>
-</section>
 
-<!-- Hasta aca llega el banner -->
+   <body>
+   		<header>
+	   		<div class="container row">
+	   			<figure class="logotipo">
+					<a href="http://www.desarrollodesitiosweb.cl">
+                    <img src="http://www.desarrollodesitiosweb.cl/imagenes/logo.png">
+                    </a>
+				</figure>
+				<div class="menu-wrap">
+					<nav class="menu col-xs-12">
+						<div class="icon-list row">
+							<a href="../">INICIO</a>
+							<a class="activo" href="../diseno-grafico">DISEÑO GRÁFICO</a>
+							<a href="diseno-grafico/imagen-corporativa">CORPORATIVA</a>
+							<a href="diseno-grafico/diseno">DISEÑOS</a>
+							<a href="diseno-grafico/impresion">IMPRESIÓN</a>
+						</div>
+					</nav>
+					<button class="close-button" id="close-button">Close Menu</button>
+					<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+						<svg xmlns="//www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+							<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+						</svg>
+					</div>
+				</div>
+				<button class="menu-button" id="open-button">Open Menu</button>
+			</div><!-- /container -->
+		</header>
 
+		<div class="top-seccion col-xs-12">
+			<div class="opacidad col-xs-12">
+				<div class="cont-top row">
+					<div class="info col-xs-12">
+						<h1 class="titulo col-xs-12">Diseño Gráfico e Imagen Corporativa</h1>
+						<p>Diseñamos el logotipo a medida y toda su campaña
+							gráfica a medida y le contamos como explotar sus recursos
+						</p>
+						<a href="#contacto">CONTACTO</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<!-- Desde aca inicia el cuadro informacion -->
-<section id="informacion">
-  <p class="wow fadeInLeft">Si de algo nos caracterizamos es de estar siempre en movimiento, la tecnología y el marketing on line esta en constante movimiento y nosotros corremos a su lado</p>
-</section>
-<!-- Hasta aca llega el cuadro informacion -->
+		<article class="col-xs-12 planes" id="planes">
+			<div class="contenido-secciones">
+				<div class="descripcion">
+					<h2>Diseño Gráfico e Imagen Corporativa</h2>
+					<p class="puntos">...</p>
+					<p>Muchas veces las empresas dejan muy a la ligera el tema
+						grafico, pero la verdad de las cosas es que es eso lo
+						que casi siempre marca la diferencia, por este motivo
+						las grandes cadenas inviernen mucho dinero en su presencia
+						corporativa, show rom decorados de punta a cabo, marcas
+						acompañadas de grandes modelos, deportistas, personalidades,
+						todo pasa por las manos de un diseñador, todo pasa hoy en
+						dia por photoshop.<br></br>
 
-<!-- Desde aca seccion diseño grafico -->
-<section class="col-xs-12" id="disenografico" >
-	<div class="container-fluid contenidodiseno">
+						Somos especialistas del área, contamos con un equipo de
+						diseñadores con vasta experiencia en el área del marketing,
+						altamente capacitados para poner en marcha la campaña
+						gráfica que necesita su empresa.
+					</p>
+	
+				</div>
+				<div class="primero row">
+					<div class="col-xs-12 col-sm-4 plan12">
+						<div class="col-xs-12 plan1">
+							<p class="titulo">Imagen Corporativa</p>
+							<p class="puntos">...</p>
+							<figure>
+								<img src="imagenes/iconos/6.png">
+							</figure>
+							<p class="texto">Diseñamos su logotipo y manual de normas para la
+								correcta utilización e implementación
+							</p>
+							<div class="valor">
+								<a href="diseno-grafico/imagen-corporativa">DETALLE</a>
+							</div>
+						</div>
+					</div>
 
-        <div class="col-xs-12 text-center info">
-            <h2 class="wow fadeInRight">Diseño Gráfico e Imagen Corporativa</h2>
+					<div class="col-xs-12 col-sm-4 plan12">
+						<div class="col-xs-12 plan1">
+							<p class="titulo">Diseño Gráfico</p>
+							<p class="puntos">...</p>
+							<figure>
+								<img src="imagenes/iconos/2.png">
+							</figure>
+							<p class="texto">La presencia de su marca en todos los elementos
+								de uso corporativo plasmado por profesionales
+							</p>
+							<div class="valor">
+								<a href="diseno-grafico/diseno">DETALLE</a>
+							</div>
+						</div>
+					</div>
 
-            <p class="wow fadeInLeft">En muchas oportunidades las empresas trabajan de forma muy
-                discreta bastante bien, consiguiendo buenos resultados, pero
-                cuando estas deciden tomar el rumbo de expansión, presentar
-                sus productos y servicios en internet, las redes sociales y
-                al mundo deben crear una marca comercial que sea acompañada
-                de una imagen corporativa calculada y diseñada por
-                profesionales, la creación de un logotipo debe ser un trabajo
-                que no se puede tomar a la ligera ya que debemos entender que
-                este diseño acompañara la marca y sus productos por un largo
-                camino y esta marca será la presentación de la empresa ante
-                los clientes, finalmente el resultado obtenido es que la gente
-                ve el logo y lo asocian inmediatamente con la empresa.
-                <br></br>
-                Podemosver ejemplos muy destacados como el logo de Nike,
-                Adidas,Apple, etc. que sin necesidad de leer el nombre sabes
-                de quien es. En Emagenic contamos con profesionales y equipo
-                para desarrollar su imagen corporativa y todo lo que lo
-                acompaña.
-            </p>
-        </div>
-        <div class="col-xs-12 text-center categorias">
+					<div class="col-xs-12 col-sm-4 plan12">
+						<div class="col-xs-12 plan1">
+							<p class="titulo">Impresión</p>
+							<p class="puntos">...</p>
+							<figure>
+								<img src="imagenes/iconos/7.png">
+							</figure>
+							<p class="texto">Pendones, tarjetas de presentación, afiches, volantes,
+								trípticos, dípticos y todo lo que necesitas
+							</p>
+							<div class="valor">
+								<a href="diseno-grafico/impresion">DETALLE</a>
+							</div>
+						</div>
+					</div>
+				</div>
 
-            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomInUp">
-                <div class="col-xs-12 cat">
-                    <div class="imagen1"></div>
-                    <div class="circulo">
-                        <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" width="22">
-                    </div>
-                    <div class="cont">
-                        <h2>Imagen Corporativa</h2>
-                        <p>Diseñamos la imagen corporativa que te acompañara en el
-                            camino del emprendimiento empresarial. Un logotipo muchas
-                            veces esta desde el inicio hasta el consagramiento en una
-                            empresa, debe ser el fiel reflejo de la visión de esta y
-                            solo se cambia si la organización cambia de rumbo.
-                        </p>
-                        <a href="diseno-grafico/imagen-corporativa">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
-                    </div>
-                </div>
-            </div>
+			</div>
+		</article>
+    <script language="javascript" src="http://www.desarrollodesitiosweb.cl/js/jquery-1.3.min.js"></script>
+<script language="javascript">
+$(document).ready(function() {
+   // Mostramos el loader
+    $().ajaxStart(function() {
+        $('#loading').show();
+        $('#result').hide();
+    }).ajaxStop(function() {
+        $('#loading').hide();
+        $('#result').fadeIn('slow');
+    });
+   // Enviamos el formulario
+    $('#myform').submit(function() {
+   // Definimos el metodo ajax, los datos
+        $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: $(this).serialize(),
+            success: function(data) {
+                // Imprimimos la respuesta en el div result
+                $('#result').html(data);
 
-            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomInUp">
-                <div class="col-xs-12 cat">
-                    <div class="imagen2"></div>
-                    <div class="circulo">
-                        <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" width="22">
-                    </div>
-                    <div class="cont">
-                        <h2><strong>Diseño Gráfico</strong></h2>
-                        <p>Muchas veces hablamos de la importancia de tener un
-                            logotipo de calidad, sobre todo lo que refleja y
-                            la verdad de las cosas es que muchas empresas lo
-                            toman como algo muy superficial. Antiguamente las
-                            grandes familias tenían un escudo de las identificaba,
-                            en las empresas su logotipo debe ser algo muy similar.
-                        </p>
-                        <a href="diseno-grafico/diseno">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4 wow zoomInUp">
-                <div class="col-xs-12 cat">
-                    <div class="imagen3"></div>
-                    <div class="circulo">
-                        <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha_blanca.png" width="22">
-                    </div>
-                    <div class="cont">
-                        <h2>Impresión</h2>
-                        <p>Diseñamos e imprimimos tus pendones y lienzos en alta
-                            calidad, todas tus ideas las llevamos a tu mesa,
-                            listas y con la máxima preocupación por los detalles.
-                            El mejor diseño que puedes tener impreso en 1440 DPI
-                            full color. No solo pendones y lienzos necesita su
-                            empresa para marcar la diferencia, Windows visión,
-                            adhesivos e imantados para sus vehículos.
-                        </p>
-                        <a href="diseno-grafico/impresion">ver más <img src="http://www.desarrollodesitiosweb.cl/imagenes/flecha.png"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-  	
-    </div> <!-- CIERRA ROW GENERAL -->
-  
-     
-</section>
-<!-- Hasta aca seccion diseño grafico -->
-
-<!-- Desde aca inicia el cuadro de redes sociales -->
-<section id="redessociales">
-  	<a href="https://www.youtube.com/user/emagenicltda" target="new"><div class="youtube"></div></a>
-	<a href="http://emagenic.blogspot.com/" target="new"><div class="blogspot"></div></a>
-	<a href="https://plus.google.com/+SitiosEmagenic/posts" target="new"><div class="googlemas"></div></a>
-    <a href="https://www.linkedin.com/company/emagenic-ltda?trk=company_logo" target="new"><div class="linkedin"></div></a>
-    <a href="skype:emagenicltda?call" target="new"><div class="skype"></div></a>
-    <a href="https://www.facebook.com/Emagenic?ref=hl" target="new"><div class="facebook"></div></a>
-    <a href="https://twitter.com/emagenic" target="new"><div class="twitter"></div></a>
-</section>
-<!-- Hasta aca llega el cuadro de redes sociales -->
-
-<!-- Desde aca inicia el cuadro de tecnologias -->
-<section id="tecnologias">
-  	<h2>NUESTRAS TECNOLOGÍAS</h2>
-  	<p>Somos una empresa que se dedica al desarrollo y diseño de páginas web en Rancagua para Chile y el mundo.</p>
-	<article class="row">
-		<figure class="col-xs-6 col-md-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/laravel.png" width="100" height="100"></figure>
-		<figure class="col-xs-6 col-md-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/html5.png" width="100" height="100"></figure>
-        <figure class="col-xs-6 col-md-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/css3.png" width="100" height="100"></figure>
-        <figure class="col-xs-6 col-md-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/bootstrap.png" width="100" height="100"></figure>
-        <figure class="col-xs-6 col-md-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/cpanel.png" width="100" height="100"></figure>
-        <figure class="col-xs-6 col-md-2"><img src="http://www.desarrollodesitiosweb.cl/imagenes/github.png" width="100" height="100"></figure>
-  </article>
-</section>
-<!-- Hasta aca llega el cuadro de tecnologias -->
-<footer>
-	<p class="sepfooter">© 2015 Todos los derechos reservados a Ingenieria y Desarrollo Emagenic Ltda</p>
-    <p>Teléfono: +56 72 2 532 2645 - mail: ventas@desarrollodesitiosweb.cl</p>
-</footer>
-<script src="js/jquery.min.js"></script>
-<script src="http://www.desarrollodesitiosweb.cl/js/bootstrap.min.js"></script>
-
-<!-- animación-css -->
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+            }
+        })
+        
+        return false;
+    }); 
+})  
 </script>
-<script type="text/javascript" src="js/jquery.corner.js"></script> 
-<script src="js/wow.min.js"></script>
-<script>
-         new WOW().init();
-</script>
-<!-- fin animación-css -->
 
-</body>
-</html>
+<!-- paratodas las secciones -->
+
+
+		<article class="col-xs-12 contacto" id="contacto">
+			<div class="cont-contacto row">
+				<form action="http://www.desarrollodesitiosweb.cl/envio" method="post" name="myform" class="col-xs-12 col-sm-8 col-md-9" id="myform" >
+					<h3>Contáctenos</h3>
+					<p class="puntos">...</p>
+					<p>Llene completamente el formulario de contacto y pronto te responderemos<br> también puedes escribirnos a <b>ventas@emagenic.cl</b>
+					</p>
+      				<fieldset id="form">
+  						<div class="row">
+  							<div class="col-xs-12">
+    							<input name="fname" type="text" class="input" id="fname" placeholder="Nombre" size="30">
+    						</div>
+  						</div>
+  						<div class="row">
+  							<div class="col-xs-12 col-md-6">
+    							<input name="fphone" type="text" class="input" id="fphone" placeholder="Teléfono" size="30"> 
+    						</div>
+    						<div class="col-xs-12 col-md-6">
+    							<input name="femail" type="text" class="input" id="femail" placeholder="E-mail" size="30">
+    						</div>
+  						</div>
+  						<div class="row">
+  							<div class="col-xs-12">
+    							<textarea name="fcomment" class="mensaje" id="fcomment" placeholder="Mensaje"></textarea>
+    						</div>
+                             
+  						</div>
+  						<div class="row">
+  							<div class="col-xs-12">
+								<div id="loading"></div>
+								<div id="result"></div>
+        						<input name="fasunto" type="hidden" class="input" value="Consulta emagenic.cl" size="30"> 
+     							<input type="submit" class="enviar" name="mysubmit" value="Enviar">
+    						</div>
+    					</div>
+    				</fieldset>
+    			</form>
+    			<div class="info-contacto col-xs-12 col-sm-4 col-md-3">
+   				  <h3>Nuestra Sucursal</h3>
+    				<p class="puntos">...</p>
+
+    				<p>Italia Nº 746 - Rancagua Norte Rancagua - Chile<br></br>
+    					Tel: (72) 2 532 645<br>
+    					E-mail: ventas@emagenic.cl
+    				</p>
+
+    				<h3>Horarios de Atención</h3>
+    				<p class="puntos2">...</p>
+
+    				<p>De lunes a Viernes desde 09:00 hrs. a 18:30 hrs.
+    				</p>
+				</div>
+			</div>
+		</article>
+		<!-- Desde aca inicia el cuadro mapa -->
+		<section id="mapa" class="col-xs-12 mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6602.690490576947!2d-70.74405002350338!3d-34.163089732910265!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x6d92521a4bedf258!2sEmagenic+Ltda!5e0!3m2!1ses!2scl!4v1431107283111" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+		    
+		    <div class="bloque" onClick="style.pointerEvents='none'" ></div>
+		    
+		</section>
+		<!-- Hasta aca llega el cuadro mapa -->
+		<div class="col-xs-12 tecnologia">
+			<div class="row contenido1">
+				<p>Somos una empresa que se dedica al desarrollo y diseño<br>
+				de páginas web para Chile y el mundo.
+				</p>	
+			</div>
+			<div class="row contenido">
+				<figure class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<img src="http://www.desarrollodesitiosweb.cl/imagenes/logos/1.png">
+				</figure>
+
+				<figure class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<img src="http://www.desarrollodesitiosweb.cl/imagenes/logos/2.png">
+				</figure>
+
+				<figure class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<img src="http://www.desarrollodesitiosweb.cl/imagenes/logos/3.png">
+				</figure>
+
+				<figure class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<img src="http://www.desarrollodesitiosweb.cl/imagenes/logos/4.png">
+				</figure>
+
+				<figure class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<img src="http://www.desarrollodesitiosweb.cl/imagenes/logos/5.png">
+				</figure>
+
+				<figure class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+					<img src="http://www.desarrollodesitiosweb.cl/imagenes/logos/6.png">
+				</figure>
+			</div>
+
+		</div>
+
+		<div class="col-xs-12 menu-inf">
+			<div class="row cont-menu">
+				<div class="cont-botones">
+					<h4>Desarrollo Web</h4>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-web">Planes</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-web/compararplanes">Comparar Planes</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-web/newsletter">News Letter</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-web/landing-page">Landing Page</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-web/frontend">Servicios Frontend</a>
+				</div>
+
+				<div class="cont-botones">
+					<h4>Diseño Gráfico</h4>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/diseno-grafico">Imagen Corporativa</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/diseno-grafico/diseno">Diseño</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/diseno-grafico/impresion">Impresión</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/diseno-grafico/vectorizacion">Vectorización</a>
+				</div>
+
+				<div class="cont-botones">
+					<h4>Web Hosting</h4>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/hosting">Hosting</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/hosting/reseller">Reseller</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/hosting/vps">VPS</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/hosting/cloud">Cloud</a>
+				</div>
+
+				<div class="cont-botones">
+					<h4>Marketing Online</h4>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/marketing-online/seo">Campaña SEO</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/marketing-online/sem">Campaña SEM</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/marketing-online/social-media">Social Media</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/marketing-online">Marketing online</a>
+				</div>
+
+				<div class="cont-botones">
+					<h4>Software App</h4>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-software/carro-de-compras">Carro Compras</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-software/erp">ERP</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-software/bd">Base de Datos</a>
+					<a class="col-xs-12" href="http://www.desarrollodesitiosweb.cl/desarrollo-software">Desarrollo App</a>
+				</div>
+			</div>
+
+			<div class="row sociales">
+				<a href="https://twitter.com/emagenic" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/1.png" alt="Twitter">
+                </a>
+                
+				<a href="skype:emagenicltda?call" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/2.png" alt="Skype">
+                </a>
+                
+				<a href="https://www.linkedin.com/company/emagenic-ltda?trk=company_logo" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/3.png" alt="linkedin">
+                </a>
+                
+				<a href="https://www.facebook.com/Emagenic?ref=hl" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/4.png" alt="Facebook">
+                </a>
+                
+				<a href="//emagenicltda.blogspot.com/" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/5.png" alt="blog">
+                </a>
+                
+				<a href="https://www.emagenic.cl" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/6.png">
+                </a>
+                
+				<a rel="Publisher" href="https://plus.google.com/+EmagenicLtdaRancagua" target="new" target="new"><img src="http://www.desarrollodesitiosweb.cl/imagenes/social/7.png" alt="Googleplus"></a>
+                
+				<a href="https://www.youtube.com/user/emagenicltda" target="new">
+                <img src="http://www.desarrollodesitiosweb.cl/imagenes/social/8.png" alt="Youtube">
+                </a>
+			</div>
+			<div class="row linea"> 
+			</div>
+		</div>
+
+		<footer class="col-xs-12">
+			<div class="row info-footer">
+				<p><img src="http://www.desarrollodesitiosweb.cl/imagenes/logo-xs.png"> © 2015 Todos los derechos reservados a Ingeniería y Desarrollo Emagenic Ltda</p>
+			</div>
+		</footer>
+		<!-- paratodas las secciones -->
+
+		<!-- script mneu desplegable -->
+   		<script src="js/classie.js"></script>
+		<script src="js/main3.js"></script>
+		<!-- fin script mneu desplegable -->
+		<!-- REDES SOCIALES -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+	<!-- google + -->
+	<script type="text/javascript">
+	  window.___gcfg = {lang: 'es-419'};
+
+	  (function() {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/platform.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+    </body>
+
+ </html>

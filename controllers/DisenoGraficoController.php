@@ -18,4 +18,8 @@ class DisenoGraficoController {
     {
         return new View('impresion');
     }
+    public function vectorizacionAction()
+    {
+        return new View('vectorizacion');
+    }
 }

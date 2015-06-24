@@ -1,6 +1,6 @@
 <?php
 
-class DesarrollowebController {
+class DesarrolloWebController {
 
     public function indexAction()
     {
@@ -13,6 +13,22 @@ class DesarrollowebController {
 	public function landingpageAction()
     {
         return new View('landingpage');
+    }
+    public function landing1Action()
+    {
+        return new View('landing1');
+    }
+    public function landing2Action()
+    {
+        return new View('landing2');
+    }
+    public function landing3Action()
+    {
+        return new View('landing3');
+    }
+    public function landing4Action()
+    {
+        return new View('landing4');
     }
     public function plan1Action()
     {
@@ -37,5 +53,13 @@ class DesarrollowebController {
     public function responsiveplan3Action()
     {
         return new View('responsive-plan3');
+    }
+	public function compararPlanesAction()
+    {
+        return new View('compararplanes');
+    }
+	public function frontendAction()
+    {
+        return new View('frontend');
     }
 }
